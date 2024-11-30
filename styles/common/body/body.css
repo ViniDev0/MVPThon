@@ -1,0 +1,10 @@
+.button
+{   
+    width: 10vw;
+    height: 5vh;
+    /* padding: 10px; */
+    border-radius: 7px;
+    background: aqua;
+    border: 0;
+    justify-content: center;
+}

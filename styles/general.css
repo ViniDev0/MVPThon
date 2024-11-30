@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+    
+  
+  body{
+    background: var(--cor-background);
+    height: 100%;
+    margin: 0;
+    font-family: Mako-Regular;
+    box-sizing: border-box;
+    word-break: break-all;
+  }
+  
+  h1,
+  h2,
+  h3,
+  p {
+    margin: 0px;
+  }
+  
+  ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  a{
+    text-decoration: none;
+    color: var(--cor-secundaria-claro);
+  }
+
+  /* ESTILOS NORMAIS */
+
+.container-principal 
+{
+ margin: auto auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  width: 22.5vh;
+}
+
+.container-principal h1 
+{
+  text-align: center;
+}
+
+.cta-button
+{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
